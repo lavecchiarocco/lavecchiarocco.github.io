@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 100%;
+    margin: 0px auto;
+}
+
+header h1{
+    background-image: linear-gradient(purple, violet);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    color: #ffffff;
+    font-size: 50px;
+}
+.imagenes{
+    margin-top: 40px;
+    height: 120px;
+    width: 90px;
+    position: absolute;
+    left: 80%;
+}
+
+nav{
+    background-image: linear-gradient(rgb(104, 103, 104), rgb(8, 8, 8));
+    height: 50px;
+}
+
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+#contenido{
+    float: left;
+    width: calc(80%);
+    min-height: 500px;
+    background-image: linear-gradient(purple, violet);
+    padding: 50px;
+}
+
+.article{
+color: black;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-bottom: 10px;
+border-bottom:1px solid black ;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 0px);
+    height: 1588px;
+    min-height: 500px;
+    background-image: linear-gradient(rgb(59, 0, 155), rgb(150, 130, 238));
+}
+
+footer{
+    background-image: linear-gradient(rgb(104, 103, 104), rgb(8, 8, 8));
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
